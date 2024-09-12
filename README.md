@@ -2,4 +2,4 @@
 
 A pagina inicial do site:
 
-![Logo]("./img/inicial-site.png")
+![App Screenshot](./img/inicial-site.png)
