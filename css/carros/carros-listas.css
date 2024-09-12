@@ -1,2 +1,36 @@
 .carros-lista {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.carros-lista h2 {
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carros-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tamanho-porcshe-fotos {
+  max-width: 330px;
+}
+.tamanho-toyota-fotos {
+  max-width: 480px;
+}
+
+@media (max-width: 1350px) {
+  .tamanho-porcshe-fotos,
+  .tamanho-toyota-fotos {
+    max-width: 100%;
+  }
 }
