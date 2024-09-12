@@ -2,4 +2,4 @@
 
 A pagina inicial do site:
 
-![Logo](inicial-site)
+![Logo]("./img/inicial-site.png")
