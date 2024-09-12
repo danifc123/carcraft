@@ -1,0 +1,24 @@
+:root {
+  --cor-0: #ffffff;
+  --cor-1: #111111;
+  --cor-5: #b5c0d0;
+  --cor-6: #7b8fa1;
+  --cor-12: #567189;
+  --cor-10: #022c43;
+
+  --cor-p1: #f8da5b;
+  --cor-p2: #f1c40f;
+  --cor-p5: #332200;
+
+  --gradient-1: linear-gradient(#f7d439, #f8da5b);
+}
+.cor-0 {
+  color: var(--cor-0);
+}
+
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
