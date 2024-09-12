@@ -1,5 +1,5 @@
 #Carcraft
 
-A pagina inicial do site:
+Uma parte da pagina inicial do site:
 
 ![App Screenshot](./img/inicial-site.png)
