@@ -22,6 +22,13 @@
 .botao:hover {
   background: var(--cor-p2);
 }
+.botao.secundario {
+  background: var(--cor-12);
+  color: var(--cor-5);
+}
+.botao.secundario:hover {
+  background: var(--cor-6);
+}
 .link {
   display: inline-block;
   color: var(--cor-p1);

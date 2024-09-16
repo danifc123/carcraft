@@ -15,3 +15,6 @@
 
 /*Carros*/
 @import "./carros/carros-listas.css";
+
+/*Seguros*/
+@import "./seguros/seguros.css";
