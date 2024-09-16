@@ -4,7 +4,6 @@
   background-color: var(--cor-p2);
   overflow: hidden;
 }
-
 .depoimento img {
   width: 100%;
   height: 100%;
@@ -37,7 +36,6 @@
 .depoimento p::after {
   content: "”";
 }
-
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;

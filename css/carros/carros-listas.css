@@ -2,7 +2,6 @@
   padding-top: 60px;
   padding-bottom: 120px;
 }
-
 .carros-lista h2 {
   margin-bottom: 40px;
 }
@@ -35,11 +34,9 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .carros-lista li span {
   padding-left: 18px;
 }
-
 .tamanho-porcshe-fotos {
   max-width: 330px;
 }

@@ -2,11 +2,9 @@
   padding-top: 60px;
   padding-bottom: 120px;
 }
-
 .parceiros h2 {
   margin-bottom: 60px;
 }
-
 .parceiros ul {
   padding: 0 20px;
   max-width: 1400px;
@@ -22,7 +20,6 @@
 .parceiros img {
   margin: auto;
 }
-
 .parceiros li:first-child,
 .parceiros li:nth-child(5) {
   border-left: none;
