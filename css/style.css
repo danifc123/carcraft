@@ -18,6 +18,9 @@
 @import "./carros/carros-listas.css";
 @import "./carros/carros.css";
 
+/*Carro*/
+@import "./carro/carro.css";
+
 /*Seguros*/
 @import "./seguros/seguros.css";
 @import "./seguros/perguntas.css";
