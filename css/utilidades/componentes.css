@@ -19,6 +19,8 @@
   font-family: "Poppins";
   font-weight: 600;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao:hover {
   background: var(--cor-p2);
