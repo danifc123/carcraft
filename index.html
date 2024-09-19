@@ -8,8 +8,8 @@
   <title>CarCraft - Carros com Bodykit</title>
   <meta name="description" content="Carros com bodykits mais irados já vistos, feitos sob demanda para o cliente. Explore o mundo na sua velocidade com a CarCraft">
 
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;400;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
@@ -39,9 +39,9 @@
         <p class="font-2-l cor-5">Customize seu carro do modo que desejar, feito sob demanda da forma que sonhar. Explore o mundo na sua velocidade com Carcraft</p>
         <a class="botao" href="./carros.html">Escolha o seu</a>
       </div>
-      <div>
-        <img src="img/Toyota.jfif" alt="Carro GTR">
-      </div>
+      <picture>
+        <img src="img/Toyota.jpeg" width="600" height="600" alt="Carro GTR">
+      </picture>
     </div>
   </main>
 
@@ -52,21 +52,21 @@
     <ul>
       <li>
         <a href="./carros/BMW.html">
-          <img src="/img/carros-lista/BMW.jpeg" alt="BMW roxa">
+          <img src="/img/carros-lista/BMW.jpeg" width="736" height="875" alt="BMW roxa">
           <h3 class="font-1-xl">Blow Turbo</h3>
           <span class="font-2-m">R$ 10.000</span>
         </a>
       </li>
       <li>
         <a href="./carros/porsche.html">
-          <img class="tamanho-porcshe-fotos" src="/img/carros-lista/porsche.jpeg" alt="Supra">
+          <img class="tamanho-porcshe-fotos" src="/img/carros-lista/porsche.jpeg" width="736" height="875" alt="Supra">
           <h3 class="font-1-xl">Last Wisper</h3>
           <span class="font-2-m">R$ 20.000</span>
         </a>
       </li>
       <li>
         <a href="./carros/supra.html">
-          <img class="tamanho-toyota-fotos" src="/img/carros-lista/toyota-lista.jpeg" alt="Toyota">
+          <img class="tamanho-toyota-fotos" src="/img/carros-lista/toyota-lista.jpeg" width="736" height="875" alt="Toyota">
           <h3 class="font-1-xl">Lightning</h3>
           <span class="font-2-m">R$ 25.000</span>
         </a>
@@ -83,20 +83,20 @@
         <a class="link " href="./carros.html">Escolha um modelo</a>
         <div class="tecnologia-vantagens">
           <div>
-            <img src="./img/icones/qualidade.png" alt="">
+            <img src="./img/icones/qualidade.png" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Qualidade</h3>
             <p class="font-2-s cor-5">Toda custom é equipada com as melhores peças do mercado, possuindo resistencia e durabilidade.</p>
           </div>
 
           <div>
-            <img src="./img/icones/rastreador.png" alt="">
+            <img src="./img/icones/rastreador.png" width="24" height="24" alt="">
             <h3 class="font-1-m cor-0">Rastreador</h3>
             <p class="font-2-s cor-5">Sabemos o quão precioso é seu carro, por isso adicionamos rastreadores e sistemas anti-furto para garantir seu sossego</p>
           </div>
         </div>
       </div>
       <div class="tecnologia-imagem">
-        <img src="img/fotos/tecnologia.jpg" alt="">
+        <img src="img/fotos/tecnologia.jpg" width="600" height="700" alt="">
       </div>
     </div>
   </article>
@@ -105,20 +105,20 @@
     <h2 class="font-1-xxl">Nossos parceiros<span class="cor-p1">.</span></h2>
 
     <ul>
-      <li><img src="./img/parceiros/caravan.svg" alt=""></li>
-      <li><img src="./img/parceiros/ranek.svg" alt=""></li>
-      <li><img src="./img/parceiros/handel.svg" alt=""></li>
-      <li><img src="./img/parceiros/dogs.svg" alt=""></li>
-      <li><img src="./img/parceiros/lescone.svg" alt=""></li>
-      <li><img src="./img/parceiros/flexblog.svg" alt=""></li>
-      <li><img src="./img/parceiros/wildbeast.svg" alt=""></li>
-      <li><img src="./img/parceiros/surfbot.svg" alt=""></li>
+      <li><img src="./img/parceiros/caravan.svg" width="140" height="38" alt=""></li>
+      <li><img src="./img/parceiros/ranek.svg" width="149" height="36" alt=""></li>
+      <li><img src="./img/parceiros/handel.svg" width="139" height="50" alt=""></li>
+      <li><img src="./img/parceiros/dogs.svg" width="152" height="39" alt=""></li>
+      <li><img src="./img/parceiros/lescone.svg" width="208" height="41" alt=""></li>
+      <li><img src="./img/parceiros/flexblog.svg" width="165" height="38" alt=""></li>
+      <li><img src="./img/parceiros/wildbeast.svg" width="196" height="34" alt=""></li>
+      <li><img src="./img/parceiros/surfbot.svg" width="200" height="49" alt=""></li>
     </ul>
   </section>
 
   <section class="depoimento" aria-label="Depoimento">
     <div>
-      <img src="./img/depoimento.jpeg" alt="Pessoa Com seu Carro Modificado">
+      <img src="./img/depoimento.jpeg" width="735" height="490" alt="Pessoa Com seu Carro Modificado">
     </div>
     <div class="depoimento-conteudo">
       <blockquote class="font-1-xl cor-p5">
@@ -173,13 +173,13 @@
         </ul>
         <div class="footer-redes">
           <a href="./">
-            <img src="./img/redes/instagram.svg" alt="Instafram">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instafram">
           </a>
           <a href="./">
-            <img src="./img/redes/facebook.svg" alt="Facebook">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
           </a>
           <a href="./">
-            <img src="./img/redes/youtube.svg" alt="Youtube">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
           </a>
         </div>
       </div>
