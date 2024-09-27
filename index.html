@@ -8,11 +8,15 @@
   <title>CarCraft - Carros com Bodykit</title>
   <meta name="description" content="Carros com bodykits mais irados já vistos, feitos sob demanda para o cliente. Explore o mundo na sua velocidade com a CarCraft">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="css/style.min.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;400;600&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+
+  <script>document.documentElement.classList.add('js');</script>
 
 </head>
 
@@ -35,11 +39,11 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Custom´s feitas sob demanda<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Customize seu carro do modo que desejar, feito sob demanda da forma que sonhar. Explore o mundo na sua velocidade com Carcraft</p>
-        <a class="botao" href="./carros.html">Escolha o seu</a>
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Custom´s feitas sob demanda<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Customize seu carro do modo que desejar, feito sob demanda da forma que sonhar. Explore o mundo na sua velocidade com Carcraft</p>
+        <a class="botao fadeInDown" data-anime="600" href="./carros.html">Escolha o seu</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <img src="img/Toyota.jpeg" width="600" height="600" alt="Carro GTR">
       </picture>
     </div>
@@ -197,6 +201,7 @@
       <p class="footer-copy font-2-m cor-6">CarCraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
